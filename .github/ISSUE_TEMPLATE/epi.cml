@@ -1,0 +1,14 @@
+name: Epic
+description: Large body of work with related stories
+title: "EPIC: <name>"
+labels: ["epic"]
+body:
+- type: textarea
+  id: goal
+  attributes: { label: Goal, description: Outcome & non-goals }
+- type: textarea
+  id: scope
+  attributes: { label: Scope, description: In-scope / Out-of-scope }
+- type: textarea
+  id: stories
+  attributes: { label: Linked Stories, description: Add story issue links }
