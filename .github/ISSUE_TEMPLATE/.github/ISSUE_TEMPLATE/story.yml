@@ -1,0 +1,14 @@
+name: Story
+description: User story with acceptance criteria
+title: "Story: <as a… I want… so that…>"
+labels: ["story"]
+body:
+- type: textarea
+  id: story
+  attributes: { label: User Story, value: "As a <role>, I want <capability> so that <benefit>." }
+- type: textarea
+  id: ac
+  attributes: { label: Acceptance Criteria, value: "- [ ] Given/When/Then…" }
+- type: textarea
+  id: notes
+  attributes: { label: Notes/Design }
