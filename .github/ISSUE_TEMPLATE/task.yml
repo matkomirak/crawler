@@ -1,0 +1,11 @@
+name: Task
+description: Small, actionable unit of work
+title: "Task: <verb + object>"
+labels: ["task"]
+body:
+- type: textarea
+  id: details
+  attributes: { label: Details }
+- type: input
+  id: related
+  attributes: { label: Related Issue (Epic/Story link) }
